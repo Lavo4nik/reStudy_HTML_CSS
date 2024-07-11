@@ -12,17 +12,22 @@ ol{
     list-style: none;
 }
 
+.ff-open-sans{
+    font-family: 'Open Sans';
+}
+
 /* Header */
 .main-header {
     /*   width: 1440px; */
-    max-width: 1440px;
+    /* max-width: 1440px; */
+    max-width: 1280px;
     height: 80px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* border-bottom: 1px solid grey; */
-    padding: 0 80px;
+   /*  padding: 0 80px; */
 
 
 }
@@ -59,7 +64,8 @@ ol{
 .header-icons-user {}
 
 .main-cat {
-    max-width: 1440px;
+  /*   max-width: 1440px; */
+  max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -72,6 +78,9 @@ ol{
 #Category {
     border: none;
     /* padding: 12px 4px 12px 24px; */
+    font-size: 16px;
+    font-family: 'Open Sans';
+    line-height: 24px;
 
 }
 
@@ -100,6 +109,7 @@ ol{
     grid-template-columns: repeat(4,1fr);
     padding-top: 60px;
     row-gap: 40px;
+    column-gap: 20px;
 }
 
 .block-product-card {
@@ -139,7 +149,7 @@ ol{
 
 }
 .main-ad {
-    max-width: 1480px;
+    max-width: 1440px;
     margin: 0 auto;
     display: flex;
 
@@ -174,13 +184,14 @@ padding-left: 50px;
 .main-ftr {
     /* display: grid; */
     /* justify-content: space-between; */
-    max-width: 1900px;
+    max-width: 1440px;
     margin: 0 auto;
     background-color:#2A254B;
 /*     padding: 0 120px; */
 }
 .main-ftr-block1{
-    max-width: 1480px;
+    /* max-width: 1480px; */
+    max-width: 1280px;
     margin: 0 auto;
     padding-top: 60px;
     display: flex;
@@ -203,7 +214,7 @@ padding-left: 50px;
 }
 .menu-fst-link {
     
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     color:#FFF;
 }
@@ -213,6 +224,8 @@ padding-left: 50px;
     padding-bottom: 15px;
 }
 .menu-sec-link {
+    font-size: 14px;
+    line-height: 20px;
     color:#FFF;
 }
 .mega-menu-thrd {
@@ -221,6 +234,8 @@ padding-left: 50px;
     padding-bottom: 15px;
 }
 .menu-thrd-link {
+    font-size: 14px;
+    line-height: 20px;
     color:#FFF;
 }
 .ftr-map {
@@ -232,13 +247,25 @@ padding-left: 50px;
    
 }
 .main-ftr-block2 {
-    max-width: 1480px;
+    max-width: 1280px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    padding: 22px 0;
+    border-top: 1px solid #4E4D93;
+}
+.fst-name-cat{
+    font-size: 16px;
 }
 .ftr-block2-cpr {
+    color:#FFF;
+    font-size: 14px;
+    line-height: 20px;
 }
 .ftr-block2-socicons {
 }
 .block2-socicons_link {
+    padding-left: 24px;
 }
 .block2-socicons_img {
 }
