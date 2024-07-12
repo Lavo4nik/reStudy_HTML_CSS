@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arimo;
+}
+
+table {
+    border: 25px solid #3A4965;
+
+    border-collapse: collapse;
+}
+
+.table {
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+
+.cl48 {
+    color: #484848;
+}
+
+.bce3 {
+    background-color: #E3E3E3;
+}
+
+
+.tarif-option-name {
+    text-transform: uppercase;
+    width: 200px;
+}
+
+.title-fst {
+    font-size: 14px;
+}
+
+.title-sec {
+    font-size: 20px;
+}
+
+.tarif-block {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.title-fst {
+    font-size: 16px;
+}
+
+.title-sec {
+    font-size: 20px;
+}
+
+.tarif-block>img {
+    width: 24px;
+}
+
+.tarif-option {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.bc-color-gr {
+    background-color: #89C331;
+}
+
+.bc-color-red {
+    background-color: #F04A56;
+}
+
+.bc-color-hgr {
+    background-color: #20807C;
+}
+
+.tarif-line {
+    height: 167px;
+    
+
+}
+
+.tl-brd {
+    border-top: 10px solid #3A4965;
+}
+
+.standart-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.tarif-bloc-title {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.tarif-block-price {
+    display: flex;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.tarif-block-price>span {
+    font-size: 14px;
+    align-self: center;
+}
+
+.tarif-block-price>sup {
+    font-size: 18px;
+}
+
+.tarif-link {
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #414141;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.tarif-data {
+    font-size: 16px;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    
+}
+.tarif-line>td:nth-child(2n){
+    background-color: #E3E3E3;
+}
+.tarif-line>td:not(:first-child){
+    border-bottom:0.5px solid #ccc5c5;
+}
