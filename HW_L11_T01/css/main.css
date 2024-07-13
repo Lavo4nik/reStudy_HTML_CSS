@@ -1,13 +1,15 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: Cabin;
 }
-.wrapper{
+
+.wrapper {
     width: 1290px;
     margin: 0 auto;
 }
+
 .main-header {
     width: 1400px;
     margin: 0 auto;
@@ -15,6 +17,7 @@
     display: flex;
     flex-direction: column;
 }
+
 .header-logo {
     width: 1290px;
     height: 75px;
@@ -24,37 +27,43 @@
     align-items: center;
     color: #F8FDFE;
 
-    
+
 }
+
 .header-logo-block {
     display: flex;
     align-items: center;
     font-size: 24px;
     font-weight: 700;
-    
+
 }
-.header-logo-block a{
+
+.header-logo-block a {
     color: #F8FDFE;
     text-decoration: none;
 }
+
 .header-basket {
     display: flex;
     align-items: center;
     position: relative;
 }
+
 .header-basket-price {
     font-size: 18px;
     font-weight: 400;
     padding-right: 10px;
 }
-.header-bascket-img{
+
+.header-bascket-img {
     display: block;
     position: relative;
 }
+
 .header-bascket-img::before {
     content: '0';
     left: 15px;
-    top:8px;
+    top: 8px;
     display: block;
     position: absolute;
     font-size: 12px;
@@ -64,8 +73,9 @@
     /* width: 50px;
     height: 50px; */
     /* background-color: black; */
-   /*  z-index: 20; */
+    /*  z-index: 20; */
 }
+
 .header-usermenu-block {
     display: flex;
     justify-content: space-between;
@@ -73,39 +83,64 @@
     background-color: #fff;
     height: 32px;
 }
+
 .usermenu-title {
     font-size: 16px;
 }
-.usermenu-list {display: flex;gap: 30px;
-    
+
+.usermenu-list {
+    display: flex;
+    gap: 30px;
+
 }
+
 .usermenu-item {
     text-decoration: none;
     color: #000;
 
 }
+
 /* Main Catalog */
 .main-content {
     width: 1290px;
     margin: 0 auto;
     background: rgb(199, 199, 199);
-    
+
 }
+
 .main-content-title {
     font-size: 32px;
     line-height: 40px;
     font-weight: 600;
     padding: 32px 0 48px 0;
 }
+
 .main-catalog {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
 }
+
 .catalog-card {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 32px;
+    border: 1px solid black;
 }
-.catalog-card-title {
+
+.catalog-card-img {
+    justify-self: center;
 }
-.catalog-card-author {
-}
-.catalog-card-price {
-}
-.catalog-card-btn {
-}
+
+.catalog-card-title {}
+
+.catalog-card-author {}
+
+.catalog-card-price {}
+
+.catalog-card-btn {}
